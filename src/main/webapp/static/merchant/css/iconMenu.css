@@ -1,0 +1,172 @@
+/*用户管理*/
+.icon-yhgl {
+    background: url('images/user.png') no-repeat;
+}
+/*系统设置*/
+.icon-xtsz {
+    background: url('images/xtsz.png') no-repeat;
+}
+/*日志管理*/
+.icon-rzgl {
+    background: url('images/rzgl.png') no-repeat;
+}
+/*重新登录*/
+.icon-cxdl {
+    background: url('images/cxdl.png') no-repeat;
+}
+/*退出系统*/
+.icon-tcxt {
+    background: url('images/tcxt.png') no-repeat;
+}
+/*菜单管理*/
+.icon-category {
+    background: url('images/category.png') no-repeat;
+}
+/*角色管理*/
+.icon-jsgl {
+    background: url('images/jsgl.png') no-repeat;
+}
+/*机构管理*/
+.icon-block {
+    background: url('images/block.png') no-repeat;
+}
+/*帮助*/
+.icon-question {
+    background: url('images/question.png') no-repeat;
+}
+/*关于*/
+.icon-tick-circle {
+    background: url('images/tick-circle.png') no-repeat;
+}
+/*操作*/
+.icon-blue-document {
+    background: url('images/blue-document.png') no-repeat;
+}
+/*图标一*/
+.icon-table--pencil {
+    background: url('images/table--pencil.png') no-repeat;
+}
+/*图标二*/
+.icon-mail--pencil {
+    background: url('images/mail--pencil.png') no-repeat;
+}
+/*图标三*/
+.icon-gear {
+    background: url('images/gear.png') no-repeat;
+}
+/*图标四*/
+.icon-books-brown {
+    background: url('images/books-brown.png') no-repeat;
+}
+/*图标五*/
+.icon-books {
+    background: url('images/books.png') no-repeat;
+}
+/*图标六*/
+.icon-blue-document-search-result {
+    background: url('images/blue-document-search-result.png') no-repeat;
+}
+/*图标七*/
+.icon-address-book {
+    background: url('images/address-book.png') no-repeat;
+}
+/*图标八*/
+.icon-address-book-blue {
+    background: url('images/address-book-blue.png') no-repeat;
+}
+/*图标九*/
+.icon-currency-dollar-aud {
+    background: url('images/currency-dollar-aud.png') no-repeat;
+}
+/*图标十*/
+.icon-currency-yen {
+    background: url('images/currency-yen.png') no-repeat;
+}
+/*图标十一*/
+.icon-database {
+    background: url('images/database.png') no-repeat;
+}
+/*图标十二*/
+.icon-desktop-share {
+    background: url('images/desktop-share.png') no-repeat;
+}
+/*图标十三*/
+.icon-direction--plus {
+    background: url('images/direction--plus.png') no-repeat;
+}
+/*图标十四*/
+.icon-films {
+    background: url('images/films.png') no-repeat;
+}
+/*图标十五*/
+.icon-key-solid {
+    background: url('images/key-solid.png') no-repeat;
+}
+/*图标十六*/
+.icon-language {
+    background: url('images/language.png') no-repeat;
+}
+/*图标十七*/
+.icon-toolbox {
+    background: url('images/toolbox.png') no-repeat;
+}
+/*图标十八*/
+.icon-wrench {
+    background: url('images/wrench.png') no-repeat;
+}
+/*图标十九*/
+.icon-keyboard {
+    background: url('images/keyboard.png') no-repeat;
+}
+/*图标二十*/
+.icon-photo-album {
+    background: url('images/photo-album.png') no-repeat;
+}
+/*图标二十一*/
+.icon-television {
+    background: url('images/television.png') no-repeat;
+}
+/*图标二十二*/
+.icon-address-book-open {
+    background: url('images/address-book-open.png') no-repeat;
+}
+/*图标二十三*/
+.icon-applications-stack {
+    background: url('images/applications-stack.png') no-repeat;
+}
+/*图标二十四*/
+.icon-flag-yellow {
+    background: url('images/flag-yellow.png') no-repeat;
+}
+/*图标二十五*/
+.icon-flag {
+    background: url('images/flag.png') no-repeat;
+}
+/*图标二十六*/
+.icon-flag-black {
+    background: url('images/flag-black.png') no-repeat;
+}
+/*图标二十七*/
+.icon-flag-blue {
+    background: url('images/flag-blue.png') no-repeat;
+}
+/*图标二十八*/
+.icon-flag-gray {
+    background: url('images/flag-gray.png') no-repeat;
+}
+/*图标二十九*/
+.icon-flag-green {
+    background: url('images/flag-green.png') no-repeat;
+}
+/*图标三十*/
+.icon-flag-pink {
+    background: url('images/flag-pink.png') no-repeat;
+}
+/*图标三十一*/
+.icon-flag-purple {
+    background: url('images/flag-purple.png') no-repeat;
+}
+/*上传图片*/
+.icon-importPic {
+    background: url('images/import-pic.png') no-repeat;
+}

@@ -1,0 +1,377 @@
+* {
+    font-size: 12px;
+    /*font-family:serif;*/
+
+    /*font-family:serif,monospace,cursive,fantasy,sans-serif;*/
+}
+
+
+h1{
+    font-size: 20px;
+}
+
+html, body {
+    border: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+pre {
+white-space: pre-wrap;       /* css-3 */
+white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+white-space: -pre-wrap;      /* Opera 4-6 */
+white-space: -o-pre-wrap;    /* Opera 7 */
+word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    margin:5px;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+.form{
+    padding:10px;    
+}
+
+a.disabled {
+    color: silver;
+}
+
+/*设置未访问过的连接属性*/
+a:link {
+    text-decoration: none;
+    color: steelblue;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/*设置访问过的连接属性*/
+a:visited {
+    text-decoration: none;
+    color: steelblue;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+/*鼠标悬停时*/
+a:hover {
+    /*text-decoration: underline;*/
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+/*鼠标点击释放之间时*/
+a:active {
+    text-decoration: none;
+    color: purple;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/*
+li{
+	list-style-type: none;
+}
+*/
+
+br {
+    line-height: 10px;
+
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+.nobr {
+    word-break: keep-all;
+    white-space: nowrap;
+}
+
+.menu-nav {
+    border: 1px solid #99bbe8;
+    line-height: 23px;
+    padding-left: 5px;
+    background: #fafafa url(../ui/easyui/themes/default/images/panel_title.png) repeat-x left;
+}
+
+.ellipsis {
+    width:200px;
+    word-break: keep-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.textarea {
+    border: 1px solid #A4BED4;
+    background: #FFFFFF ;
+    font-size: 12px;
+    padding:2px;
+    vertical-align:middle;
+    overflow:auto;
+}
+
+.select {
+    font-size: 12px;
+    vertical-align:middle;
+    height:21px;
+}
+
+.input {
+    border: 1px solid #A4BED4;
+    background: #FFFFFF ;
+    font-size: 12px;
+    height: 14px;
+    line-height: 14px;
+    padding:3px;
+	vertical-align: middle;
+    outline: none;
+}
+
+.file{
+
+    height: 22px;
+    line-height: 22px;
+    padding:0;
+   
+}
+
+.table {
+    border:none;
+    border-collapse: collapse;
+}
+
+.table .th {
+    border:none;
+    white-space: nowrap;
+    font-weight: normal;
+    text-align: right;
+    padding: 3px;
+    line-height:22px;
+}
+
+.table .td {
+    border:none;
+    text-align: left;
+    padding: 3px;
+    line-height:22px;
+}
+
+.table .btn-bar{
+    border:none;
+    text-align:center;
+    padding-top:10px;
+}
+
+.table-border {
+    border-collapse: collapse;
+}
+.table-border thead .th {
+    border: 1px solid #99bbe8;
+    background-color:#EBF3FD;
+    border-spacing: 1px;
+    text-align: left;
+    font-weight: bolder;
+    white-space: nowrap;
+    padding: 2px;
+    line-height:22px;
+}
+
+.table-border thead .td {
+    border: 1px solid #99bbe8;
+    background-color:#EBF3FD;
+    border-spacing: 1px;
+    text-align: left;
+    font-weight: normal;
+    white-space: nowrap;
+    padding: 2px;
+    line-height:22px;
+}
+
+.table-border tbody .th {
+    border: 1px solid #99bbe8;
+    background-color:#EBF3FD;
+    border-spacing: 1px;
+    text-align: right;
+    font-weight: normal;
+    white-space: nowrap;
+    padding: 2px;
+    line-height:22px;
+}
+
+.table-border tbody .td {
+    border: 1px solid #99bbe8;
+    border-spacing: 1px;
+    text-align: left;
+    padding: 2px;
+    line-height:22px;
+}
+
+.table-border tfoot .th {
+    border: 1px solid #99bbe8;
+    border-spacing: 1px;
+    text-align: right;
+    font-weight: normal;
+    white-space: nowrap;
+    padding: 2px;
+    line-height:22px;
+}
+
+.table-border tfoot .td {
+    border: 1px solid #99bbe8;
+    border-spacing: 1px;
+    text-align: left;
+    padding: 2px;
+    line-height:22px;
+}
+
+
+.table-dotted {
+    border-collapse: collapse;
+}
+
+.table-dotted thead .th {
+    border: 1px dotted #99bbe8;
+    background-color:#EBF3FD;
+    border-spacing: 1px;
+    text-align: left;
+    font-weight: bolder;
+    white-space: nowrap;
+    padding: 2px;
+    line-height:22px;
+}
+
+.table-dotted thead .td {
+    border: 1px dotted #99bbe8;
+    background-color:#EBF3FD;
+    border-spacing: 1px;
+    text-align: left;
+    font-weight: normal;
+    white-space: nowrap;
+    padding: 2px;
+    line-height:22px;
+}
+
+.table-dotted tbody .th {
+    border: 1px dotted #99bbe8;
+    background-color:#EBF3FD;
+    border-spacing: 1px;
+    text-align: right;
+    font-weight: normal;
+    white-space: nowrap;
+    padding: 2px;
+    line-height:22px;
+}
+
+.table-dotted tbody .td {
+    border: 1px dotted #99bbe8;
+    border-spacing: 1px;
+    text-align: left;
+    padding: 2px;
+    line-height:22px;
+}
+
+.table-dotted tfoot .th {
+    border: 1px dotted #99bbe8;
+    background-color:#EBF3FD;
+    border-spacing: 1px;
+    text-align: right;
+    font-weight: normal;
+    white-space: nowrap;
+    padding: 2px;
+    line-height:22px;
+}
+
+.table-dotted tfoot .td {
+    border: 1px dotted #99bbe8;
+    border-spacing: 1px;
+    text-align: left;
+    padding: 2px;
+    line-height:22px;
+}
+
+
+.fieldset {
+    padding: 0 5px 5px;
+    border: 1px solid #D3D3D3;
+}
+
+.fieldset .legend {
+    /*border: 1px solid #D3D3D3;*/
+    /*background-color: #d3d3d3;*/
+    font-weight: bolder;
+    font-size:12px;
+    padding: 2px 10px;
+    /*margin-left: 5px;*/
+    /*color:white;*/
+}
+
+.load-mask{
+	position:absolute;
+	left:0;
+	top:0;
+	background:#ccc;
+	opacity:0.3;
+	filter:alpha(opacity=30);
+	display:none;
+    z-index: 1000;
+
+}
+.load-mask-msg{
+	position:absolute;
+	cursor:wait;
+	left:100px;
+	top:50px;
+	width:auto;
+	height:16px;
+	padding:12px 5px 10px 30px;
+	background:#fff url('../ui/easyui/themes/default/images/pagination_loading.gif') no-repeat scroll 5px 10px;
+	border:2px solid #6593CF;
+	color:#222;
+	display:none;
+    z-index: 1001;
+}
+
+
+
+/*2015-08-03添加*/
+.table-border tbody .td em { float:right; width:40px; text-align:center; font-style:normal; cursor:pointer; }
+.tagList { padding:0 5px; overflow:hidden; }
+.tagList ul { overflow:hidden; margin-right:40px; }
+.tagList li { float:left; margin:0 5px; }

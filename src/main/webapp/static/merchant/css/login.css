@@ -1,0 +1,97 @@
+body {
+	font-family:"Î¢ÈíÑÅºÚ";
+	background:url(images/bg.jpg);
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+}
+a {
+	text-decoration:none;
+}
+.main {
+	width:1004px;
+	height:605px;
+	margin:0px auto;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-300px 0 0 -502px;
+	background:url(images/mainbg.jpg) no-repeat;
+}
+.title {
+	font-size:30px;
+	font-family:"Î¢ÈíÑÅºÚ";
+	color:#fff;
+	height:31px;
+	padding-top:40px;
+	padding-left:30px;
+}
+.ico_database {
+	width:133px;
+	height:10px;
+	margin-top:5px;
+	margin-left:30px;
+}
+.login_box {
+	margin-left:625px;
+	margin-top:120px;
+}
+.login_box td {
+	padding-top:20px;
+}
+input:focus, textarea:focus, select:focus {
+	outline-width:0; /* No outline border for Safary */
+}
+.input_user, .input_pass {
+	width:252px;
+	height:25px;
+	font-size:18px;
+	font-family:"Î¢ÈíÑÅºÚ";
+	color:#92a6b4;
+	line-height:25px;
+	padding-left:8px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.dm_bluebtn {
+	background-image: url(images/btn_blue_l.png);
+	background-repeat: no-repeat;
+	padding-left:2px;
+	display:inline-block;
+	height:30px;
+	font-size:15px;
+}
+.dm_bluebtn .itembody {
+	background:url(images/btn_blue_r.png) no-repeat top right;
+	padding:4px 16px 0px 12px;
+ *padding-top:5px;
+	display:inline-block;
+	text-decoration:none;
+	color: #fff;
+	white-space:nowrap;
+	cursor:pointer;
+	height:26px;
+ *height:25px;
+	font-weight:bold;
+	text-align:center;
+}
+a.dm_bluebtn:hover {
+	text-decoration:none;
+	background-image: url(images/btn_blue_hov_l.png);
+}
+a.dm_bluebtn:hover .itembody {
+	background:url(images/btn_blue_hov_r.png) no-repeat top right;
+	text-decoration:none;
+}
+.footer {
+	position:absolute;
+	bottom:50px;
+	text-align:center;
+	font-size:12px;
+	color:#fff;
+	width:100%;
+	line-height:60px;
+}

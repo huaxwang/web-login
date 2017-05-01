@@ -1,0 +1,232 @@
+body, html {
+	height: 100%;
+}
+/*hread start*/
+.x_body {
+	width: 100%;
+	height: 100%;
+	background: #dae8f5;
+	position: relative;
+	overflow: hidden;
+}
+
+.x_heartop {
+	top: 0px;
+	z-index: 2;
+	background: url(./images/toum_p.png) repeat-x center;
+}
+
+.x_hear_p .x_nav {
+	padding: 0px;
+	margin-right: 10px;
+}
+
+.x_hear_p .x_nav li {
+	float: left;
+	height: 60px;
+	line-height: 60px;
+}
+
+.x_hear_p .x_nav li a {
+	font-size: 16px;
+	color: #000;
+	display: inline-block;
+	padding: 0px 5px;
+}
+
+.logo_pt img {
+	margin-left: 5px;
+	margin-top: 10px;
+}
+/*hread over*/
+/*boackgrond start*/
+.x_cont {
+	height: 100%;
+	position: relative;
+	top: 0px;
+}
+
+.x_bj {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	overflow-x: hidden;
+	display: none;
+	background-size: 100%;
+}
+
+.x_bj.bj1 {
+	background: url(./images/bj01.png) no-repeat;
+}
+
+.x_bj.bj2 {
+	background: url(./images/bj02.jpg) no-repeat;
+}
+
+.x_bj.bj3 {
+	background: url(./images/bj03.jpg) no-repeat;
+}
+
+.x_bj.bj4 {
+	background: url(./images/bj04.jpg) no-repeat;
+}
+
+.show {
+	display: block;
+}
+/*boackgrond over*/
+
+/* 登陆 start*/
+.x_Sign {
+	width: 315px;
+	background: url(./images/x_Sign_bj.png) no-repeat;
+	height: 305px;
+	position: absolute;
+	z-index: 3;
+	right: 4%;
+	top: 50%;
+	margin-top: -178px;
+	padding: 25px 30px;
+}
+
+.x_Sign h1 {
+	display: block;
+	color: #000;
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.x_Sign .x_Sin_deng {
+	height: auto;
+}
+
+.x_Sign .x_Sin_deng li {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 20px;
+	background: #FFF;
+}
+
+.l_text1 {
+	height: 41px;
+	width: 280px;
+	border: 1px solid #dedede;
+	padding: 0px 10px;
+	background: #fff;
+	line-height: 41px;
+}
+
+.x_Sign .x_Sin_deng li i.x_Sin_ico {
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url(./images/ipon_log.png) no-repeat;
+}
+
+.x_Sign .x_Sin_deng li i.x_Sin_ico.sin_01 {
+	background-position: 0px 0px;
+}
+
+.x_Sign .x_Sin_deng li i.x_Sin_ico.sin_02 {
+	background-position: 0px -57px;
+}
+
+.x_Sign .x_Sin_deng li input {
+	width: 265px;
+	height: 30px;
+	border: none;
+	padding: 5px 5px;
+	*padding: 13px 5px;
+	font-size: 12px;
+	color: #999;
+}
+
+.x_Sign .x_wjposs {
+	padding: 0px;
+	margin-top: 12px;
+	font-size: 12px;
+	position:relative;
+	left:0px;
+	top:0px;
+}
+
+.x_Sign .x_wjposs .labte {
+	color: #4c4c4c;
+}
+
+.x_Sign .x_wjposs a {
+	color: #4c4c4c;
+}
+
+.x_Sign .x_submit {
+	background: #10a4c2;
+	height: 40px;
+	border-radius: 5px;
+	margin: 50px auto 25px auto;
+}
+
+.x_Sign .x_submit a {
+	display: block;
+	font-size: 20px;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+}
+
+.x_Sign .x_zc_po {
+	font-size: 12px;
+}
+
+.x_Sign .x_zc_po a {
+	display: inline-block;
+	color: #4c4c4c;
+}
+
+.cont {
+	display: none;
+	width: 170px;
+	height: 30px;
+	color: #c04c00;
+	font-size: 12px;
+	padding: 10px 10px;
+	background:#fefbfb;
+	/* filter: alpha(opacity = 50);
+	-moz-opacity: 0.5;
+	opacity: 0.5; */
+	position:absolute;
+	top:16px;
+	left:0px;
+}
+/* 登陆 over*/
+/**fotter start*/
+.x_hread_pt {
+	width: 100%;
+	margin: 0px auto;
+	height: 60px;
+	background: url(./images/toum_p.png) repeat-x center;
+	position: absolute;
+}
+
+.x_hear_p {
+	width: 100%;
+	margin: 0px auto;
+	height: 73px;
+}
+
+.x_hear_p p {
+	display: inline-block;
+	font-size: 12px;
+	color: #000;
+	line-height: 20px;
+	padding: 30px 0px;
+}
+
+.x_fotter {
+	text-align: center;
+	bottom: 0px;
+	z-index: 2;
+}
+/**fotter over*/

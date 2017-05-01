@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+body{padding:0; margin:0 auto; background:#f5f5f5;}
+#saas_wrap{ padding:0; margin:0 auto; width:1200px; background:#f5f5f5;}
+.saas-left{ width:220px; min-height:837px; background:#fff; border-radius:5px; box-shadow:0 0 3px 1px #ccc;}
+.left-icon,.saas-th-icon,.saas-left-icon1,.saas-left-icon2,.saas-left-icon3,.saas-left-icon4,.saas-left-icon5,.saas-left-icon6,.saas-left-icon7,.saas-left-icon8,.saas-left-icon9,.saas-left-icon10,.saas-left-icon11,.saas-left-icon12,.saas-left-icon13,.saas-left-icon14,.saas-left-icon15,.saas-left-icon16{ background:url(../images/left-icon.png) no-repeat;}
+.saas-left h2{ color:#4d637b; font-size:18px; height:51px; line-height:51px; padding-left:26px;}
+.saas-th-icon{ background-position:180px 20px;}
+.saas-left ul li{ height:54px; line-height:54px; margin-left:1px; color:#555555; font-size:14px; border-top:solid 1px #e5ebf5;}
+.saas-left-icon1,.saas-left-icon1,.saas-left-icon2,.saas-left-icon3,.saas-left-icon4,.saas-left-icon5,.saas-left-icon6,.saas-left-icon7,.saas-left-icon8,.saas-left-icon9,.saas-left-icon10,.saas-left-icon11,.saas-left-icon12,.saas-left-icon13,.saas-left-icon14,.saas-left-icon15,.saas-left-icon16{ width:28px; height:28px; display:inline-block; margin:0 12px 0 24px; vertical-align:middle;}
+.saas-left-icon1{ background-position:-30px -36px; }
+.saas-left-icon2{ background-position:-30px -90px; }
+.saas-left-icon3{ background-position:-30px -144px; }
+.saas-left-icon4{ background-position:-30px -198px; }
+.saas-left-icon5{ background-position:-30px -252px; }
+.saas-left-icon6{ background-position:-30px -306px; }
+.saas-left-icon7{ background-position:-30px -360px; }
+.saas-left-icon8{ background-position:-30px -414px; }
+.saas-left-icon9{ background-position:-30px -469px; }
+.saas-left-icon10{ background-position:-30px -523px; }
+.saas-left-icon11{ background-position:-30px -577px; }
+.saas-left-icon12{ background-position:-30px -631px; }
+.saas-left-icon13{ background-position:-30px -685px; }
+.saas-left-icon14{ background-position:-30px -739px; }
+.saas-left-icon15{ background-position:-30px -793px; }
+.saas-left-icon16{ background-position:-30px -847px; }
+.saas-left ul li a{ display:block; color:#555555; font-size:14px; text-decoration:none;border-left:4px solid #fff;}
+.saas-left ul li.active a{ background:#f5f5f5; border-left:4px solid #08a2ba; color:#08a2ba; text-decoration:none;}
+.saas-left ul li.active a .saas-left-icon1{ background-position:0px -36px; }
+.saas-left ul li.active a .saas-left-icon2{ background-position:0px -90px; }
+.saas-left ul li.active a .saas-left-icon3{ background-position:0px -144px; }
+.saas-left ul li.active a .saas-left-icon4{ background-position:0px -198px; }
+.saas-left ul li.active a .saas-left-icon5{ background-position:0px -252px; }
+.saas-left ul li.active a .saas-left-icon6{ background-position:0px -306px; }
+.saas-left ul li.active a .saas-left-icon7{ background-position:0px -360px; }
+.saas-left ul li.active a .saas-left-icon8{ background-position:0px -414px; }
+.saas-left ul li.active a .saas-left-icon9{ background-position:0px -469px; }
+.saas-left ul li.active a .saas-left-icon10{ background-position:0px -523px; }
+.saas-left ul li.active a .saas-left-icon11{ background-position:0px -577px; }
+.saas-left ul li.active a .saas-left-icon12{ background-position:0px -631px; }
+.saas-left ul li.active a .saas-left-icon13{ background-position:0px -685px; }
+.saas-left ul li.active a .saas-left-icon14{ background-position:0px -739px; }
+.saas-left ul li.active a .saas-left-icon15{ background-position:0px -793px; }
+.saas-left ul li.active a .saas-left-icon16{ background-position:0px -847px; }
+.saas-con{ box-shadow:0 0 3px 1px #ccc; min-height:837px; background:#fff; width:952px; border-radius:5px; float:right; }
+.saas-con-t{ padding:20px 13px 0 13px;}
+/*轮播*/
+#focus-banner{position:relative;width:640px;overflow:hidden; z-index:0; float:left;}
+#focus-banner-list{position:relative}
+#focus-banner-list li{position:absolute;left:0;top:0;width:100%}
+#focus-banner-list li img{width:100%}
+.focus-banner-img{display:block}
+#focus-banner-list .focus-banner-text{position:absolute;left:50%;top:0;width:1000px;height:100%;margin-left:-500px;text-align:center;color:#fff;font-size:16px;text-align:center}
+#focus-banner .focus-handle{position:absolute;top:50%;margin-top:-40px;z-index:100;display:block;width:80px;height:80px;background-image:url("../images/focus_handle.png")}
+#next-img{right:0}
+#next-img{right:30px;background-position:-80px 0}
+#next-img:hover{background-position:-80px -80px}
+#prev-img{left:0}
+#prev-img{left:30px;background-position:0 0}
+#prev-img:hover{background-position:0 -80px}
+#focus-bubble{position:absolute;left:50%;bottom:10px;z-index:999}
+#focus-bubble li{float:left;width:10px;height:10px;margin:0 5px;border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-o-border-radius:50%;-ms-border-radius:50%;border:1px #fff solid;cursor:pointer}
+#focus-bubble li.current{background-color:#fff}
+
+.saas-con-t-r{ border:solid 1px #eeeeee; width:274px; min-height:300px;}
+.saas-con-t-r h2{ font-size:18px; color:#fff; height:40px; line-height:40px; background:#08a2ba url(../images/i-th.png) no-repeat 16px 14px; padding-left:40px; }
+.saas-con-t-r  ul li{ height:59px; line-height:25px; border-top:solid 1px #ededed; color:#666666; font-size:12px; background: url(../images/d.png) no-repeat 17px 21px; padding-left:40px; padding-top:11px;}
+
+.saas-con-b{padding:13px 13px 0 13px;}
+.saas-con-b-l{ width:640px;border-bottom:solid 1px #ededed; border-left:solid 1px #ededed; border-right:solid 1px #ededed;}
+.saas-th-con{ font-size:18px; color:#fff; height:42px; line-height:42px; padding-left:40px; background:#08a2ba url(../images/i-th.png) no-repeat 16px 16px;}
+.saas-th-con a{ font-size:12px; float:right; color:#fff !important; text-decoration:none !important;}
+.saas-con-b-l ul,.saas-con-b-r ul{ min-height:419px;}
+.saas-con-b-l ul li,.saas-con-b-r ul li{ font-size:12px; color:#666; height:39px; line-height:39px; padding:0 45px 0 8px; border-top:solid 1px #ededed;}
+.saas-con-b-l ul li i,.saas-con-b-r ul i{ width:21px; height:21px; line-height:21px; text-align:center; display:inline-block; background:#fafafa; border:solid 1px #e6e6e6;}
+.saas-con-b-l ul li i.active,.saas-con-b-r ul li i.active{ background:#ff9a1a; color:#fff; border:solid 1px #ff9a1a;}
+
+.saas-con-b-r{ width:272px; border:solid 1px #eeeeee; min-height:300px;}
+.saas-con-b-r ul li{padding:0 10px 0 8px;}
+
+.saas-footer{ overflow:hidden; width:100%;}
+.saas-footer p{ padding:20px 0 70px 0; color:#999; text-align:center;}
+
+.saas-nav{ height:60px; background:#10a4c2; border-bottom:solid 4px #006f86;}
+.saas-nav-con{  padding:0; margin:0 auto; width:1200px; height:63px; position:relative;}
+.saas-nav-con h1{ position:absolute; left:5px; top:0px;}
+.saas-nav-con ul{ padding-left:248px;}
+.saas-nav-con ul li{ line-height:45px; float:left; width:85px; color:#000; text-align:center; font-size:16px; position:relative;}
+.saas-nav-con ul li a{ padding-top:3px; display:block; color:#fff;}
+.saas-nav-con ul li a:hover,.saas-nav-con ul li.active a{ background:#0f9cb8; color:#fff; text-decoration:none;}
+.saas-nav-con-r{ position:absolute; right:0px; top:10px;}
+.saas-my{ background:#006f86; padding:8px 20px; border-radius:8px; color:#fff;}
+.saas-SignIn{ color:#fff; padding:2px 10px; border-right:solid 1px #7ac7db;}
+.saas-Cancellation{ color:#fff; padding-left:8px;}
+.saas-SignIn a,.saas-Cancellation a{ color:#fff !important; text-decoration:none !important;}
+
+.saas-card{ height:40px; background:#fff; }
+.saas-card-con{ margin:0 auto; padding:0;}
+.nav-ul-w{ position:absolute; top:48px; left:-50px; background:#fff;  min-width:165px; z-index:99;}
+.top-c{ background:url(../images/top-c.png) no-repeat; display:inline-block; width:11px; height:6px; display:inline-block; position:absolute; top:-6px;}
+.nav-ul-w ol li{ min-width:165px; text-align:center; line-height:35px; position:relative;}
+.nav-ul-w ol li a{ background:none !important; color:#000 !important; font-size:14px !important;}
+
+.nav-ul-w ol li a:hover{ background:#0f9cb8 !important;}
+.top-nav-li{ width:6px; height:9px; display:inline-block; background:url(../images/top-nav-li.png) no-repeat; position:absolute; right:16px; top:16px;}
+.nav-li1{ color:#262a33; font-size:14px; font-weight:600;}
+.nav-li-2{ position:absolute; left:165px; top:0; background:#fff;  min-width:165px; text-align:center; line-height:35px;}
+.nav-li-2 dd{ position:relative; font-size:14px;}
+
+

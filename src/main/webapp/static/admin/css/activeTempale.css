@@ -1,0 +1,173 @@
+.applyActive div.title{
+    text-align: center;
+    font-family:'Arial';
+    padding:10px;
+    vertical-align:top;
+}
+.applyActive div.title a{
+    text-align: center;
+}
+.applyActive span.titleContent{
+	display:inline-block;
+    width:350px;
+    height:26px;
+    text-align: center;
+    font-family:'Arial';
+    font-size: 24px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+}
+
+.applyActive div.pic{
+    text-align: center;
+    font-family:'Arial';
+    padding:10px;
+    vertical-align:top;
+}
+
+
+.applyActive div.sbutt{
+    text-align: center;
+    font-family:'Arial';
+    padding:10px;
+    vertical-align:top;
+}
+.applyActive div.sbutt div.cont{
+    display:inline-block;
+    width:350px;
+    height:55px;
+    border-width:1px 1px 1px 1px;
+    border-color:black;
+    border-style:solid;
+    text-decoration:none;
+}
+.applyActive div.sbutt div.cont span.sbuttContent{
+    display:inline-block;
+    width:230px;
+    height:35px;
+    padding:13px 1px 2px 1px;
+    text-align: right;
+    font-family:'Arial';
+    font-size: 22px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+}
+
+.applyActive div.sbutt div.cont span.sbuttInit{
+    display:inline-block;
+    width:120px;
+    height:35px;
+    padding: 15px 1px 0px 1px;
+    text-align: left;
+    font-family:'Arial';
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+}
+
+.applyActive div.content{
+    text-align: center;
+    font-family:'Arial';
+    padding:10px;
+    vertical-align:top;
+}
+
+.applyActive div.content span.activeContent{
+    display:inline-block;
+    width:350px;
+    height:120px;
+    text-align: left;
+    font-family:'Arial';
+    white-space:normal;
+    word-break:break-all;
+    word-wrap:break-word;
+    overflow:auto;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+}
+
+
+.applyContent div.applyCon{
+	width:350px;
+    height:auto;
+    margin-left:150px;
+    line-height:40px;
+    text-align: center;
+    float: left;
+    border: thin solid #999999;
+}
+
+
+.applyContent div.applyCon div.con{
+	display:block; 
+    text-align: left;
+    vertical-align:center;
+    width:342px;
+    height:31px;
+    padding:5px 2px 5px 2px;
+    margin:2px 2px 2px 2px;
+}
+
+.applyContent div.applyCon div.con span.lable{
+	display:block;
+	float:left;
+    text-align: right;
+    width:50px;
+    height:31px;
+    line-height:31px;
+    margin-right: 2px;
+    border: thin solid #FFF;
+}
+
+
+.applyContent div.applyCon div.con div.box{
+	display:inline-block;
+    text-align: left;
+    width:240px;
+    height:31px;
+    line-height:31px;
+    margin-left: 2px;
+    border: thin solid #FFF;
+    padding-left:10px;
+}
+
+.applyContent div.applyCon div.con div.box span.selectBtn{
+	display:inline-block;
+    text-align: center;
+    width:102px;
+    height:31px;
+    line-height:31px;
+    margin-left: 2px;
+    border: thin solid #999;
+    padding-left:10px;
+}
+
+.applyContent div.applyCon div.con div.box .input{
+	width:232px; height:23px; line-height:23px;	
+}
+.applyContent div.applyBtn{
+	line-height:40px;
+	width:100px;
+    height:auto;
+    text-align: center;
+    float: left;
+}
+
+.applyContent div.applyBtn span.btn{
+	display:block; 
+    text-align: center;
+    vertical-align:center;
+    width:100px;
+    height:31px;
+    padding:5px 2px 5px 2px;
+    margin:0px 1px 1px 1px;
+    border: thin solid #FFF;
+}
+
+

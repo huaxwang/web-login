@@ -1,0 +1,79 @@
+body {
+    overflow: hidden;
+}
+
+#menuBar {
+    overflow: hidden;
+    height: 27px;
+    line-height: 27px;
+    background: #fafafa url(../ui/easyui/themes/default/images/panel_title.png) repeat-x left;
+    border: 1px solid #99bbe8; /*padding:1px 2px;*/
+    padding: 1px 2px 1px 2px;
+}
+
+#menuBar a {
+    text-decoration: none;
+}
+
+#menuBar a.lnk {
+    vertical-align: top;
+}
+
+#statusBar {
+    overflow: hidden;
+    height: 26px;
+    background: #fafafa url(../ui/easyui/themes/default/images/panel_title.png) repeat-x left;
+    border: 1px solid #99bbe8;
+    line-height: 24px;
+    text-align: center;
+}
+
+#statusBar ul {
+    height: 26px;
+    line-height: 26px;
+    padding-left: 10px;
+}
+
+#statusBar ul li {
+    float: left;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+
+div.menuDrop {
+    display: none;
+    width: 150px;
+}
+
+div.bannerbg {
+    background: url(images/bannerbg.jpg) repeat-x;
+    height: 41px;
+}
+div.banner_left {
+	width:100%;
+	height:41px;
+	positiong:relative;
+	background: url(images/banner.jpg) no-repeat left top;
+}
+div.banner_left .input_box{float:right;}
+div.banner_left .input_box input,div.banner_left .input_box label{ margin-top:5px; margin-right:20px;}
+div.banner_left .input_box a{margin-top:5px; margin-right:20px; float:left;line-height: 29px; color:#fff;}
+div.banner_left .input_box a.a_btn{background: url(images/main_button.png) no-repeat; font-size:13px;width:91px; height:29px;line-height: 29px;text-align: center;color:#016273;}
+div.banner {
+    background: url(images/banner1.jpg) no-repeat;
+    height: 85px;
+}
+
+div.banner div {
+    height: 26px;
+    line-height: 26px;
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    color: #FFFFFF;
+}
+
+
+#tabBar div.panel-body {
+    padding: 1px;
+}
